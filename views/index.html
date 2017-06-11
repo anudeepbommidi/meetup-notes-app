@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ title }}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+      <div>
+          {% for note in notes %}
+          <div>
+                <h1>{{note.memberName}}</h1>
+                <p>{{ note.project }}</p>
+          </div>
+     </div>
+  </body>
+</html>
